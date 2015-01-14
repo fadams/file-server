@@ -5,3 +5,15 @@ It started out as a means to learn a bit about Node's http module, but it turns
 out to be a nice quick and simple way to serve files locally. It is primarily
 intended for local, non-production use and hasn't been tested for robustness
 against any sort of attack.
+
+Run with:
+
+`
+node file-server.js <port>
+`
+or
+`
+./file-server.js <port>
+`
+
+The default port is 8080
